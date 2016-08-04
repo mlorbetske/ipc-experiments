@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25029.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BEB6558C-6901-47B8-B895-7C4F8435677C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8640B42E-227D-4462-A0F0-B21013E6DDBF}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.SharedMemIpc.Console", "src\Microsoft.SharedMemIpc.Console\Microsoft.SharedMemIpc.Console.xproj", "{113BBE5E-75AE-48F7-999A-0A152BA60BDC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.SharedMemIpc.Helper", "src\Microsoft.SharedMemIpc.Helper\Microsoft.SharedMemIpc.Helper.xproj", "{41EBD70C-3D9C-47EA-8781-087387C6FA5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{6FD7620F-7F66-4AC2-8D19-0CD935C00E7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication3", "ConsoleApplication3\ConsoleApplication3.csproj", "{01544B88-E6CF-4E77-BC4F-642894C58EF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ipc.Memory.Components", "Ipc.Memory.Components\Ipc.Memory.Components.csproj", "{87B3F7C6-B949-4C6E-9492-9D6E9B3E480D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ipc.Memory.Components.Test", "Ipc.Memory.Components.Test\Ipc.Memory.Components.Test.csproj", "{9F9471CC-F383-4394-9C98-10F89C5FE612}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{113BBE5E-75AE-48F7-999A-0A152BA60BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113BBE5E-75AE-48F7-999A-0A152BA60BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113BBE5E-75AE-48F7-999A-0A152BA60BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113BBE5E-75AE-48F7-999A-0A152BA60BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41EBD70C-3D9C-47EA-8781-087387C6FA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41EBD70C-3D9C-47EA-8781-087387C6FA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41EBD70C-3D9C-47EA-8781-087387C6FA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41EBD70C-3D9C-47EA-8781-087387C6FA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD7620F-7F66-4AC2-8D19-0CD935C00E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD7620F-7F66-4AC2-8D19-0CD935C00E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD7620F-7F66-4AC2-8D19-0CD935C00E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD7620F-7F66-4AC2-8D19-0CD935C00E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01544B88-E6CF-4E77-BC4F-642894C58EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01544B88-E6CF-4E77-BC4F-642894C58EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01544B88-E6CF-4E77-BC4F-642894C58EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01544B88-E6CF-4E77-BC4F-642894C58EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B3F7C6-B949-4C6E-9492-9D6E9B3E480D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B3F7C6-B949-4C6E-9492-9D6E9B3E480D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B3F7C6-B949-4C6E-9492-9D6E9B3E480D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B3F7C6-B949-4C6E-9492-9D6E9B3E480D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9471CC-F383-4394-9C98-10F89C5FE612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9471CC-F383-4394-9C98-10F89C5FE612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9471CC-F383-4394-9C98-10F89C5FE612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9471CC-F383-4394-9C98-10F89C5FE612}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{113BBE5E-75AE-48F7-999A-0A152BA60BDC} = {BEB6558C-6901-47B8-B895-7C4F8435677C}
+		{41EBD70C-3D9C-47EA-8781-087387C6FA5C} = {BEB6558C-6901-47B8-B895-7C4F8435677C}
+		{01544B88-E6CF-4E77-BC4F-642894C58EF8} = {BEB6558C-6901-47B8-B895-7C4F8435677C}
+	EndGlobalSection
+EndGlobal
